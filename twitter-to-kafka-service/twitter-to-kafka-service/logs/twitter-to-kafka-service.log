@@ -1,0 +1,17 @@
+2022-05-25 00:35:49 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.11 on tales-PC with PID 8852 (/home/tales/workspaces/backend/microservices/baseproject/baseproject/twitter-to-kafka-service/target/classes started by tales in /home/tales/workspaces/backend/microservices/baseproject/baseproject/twitter-to-kafka-service)
+2022-05-25 00:35:49 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-25 00:35:50 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.294 seconds (JVM running for 2.846)
+2022-05-25 00:35:50 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - App is starting..
+2022-05-25 00:35:50 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, ElasticSearch]
+2022-05-25 00:38:39 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.11 on tales-PC with PID 9488 (/home/tales/workspaces/backend/microservices/baseproject/baseproject/twitter-to-kafka-service/target/classes started by tales in /home/tales/workspaces/backend/microservices/baseproject/baseproject/twitter-to-kafka-service)
+2022-05-25 00:38:39 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-25 00:38:39 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.571 seconds (JVM running for 1.205)
+2022-05-25 00:38:39 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - App is starting..
+2022-05-25 00:38:39 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, ElasticSearch]
+2022-05-25 00:38:39 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - Hello Microservices
+2022-05-25 00:39:30 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.11 on tales-PC with PID 9667 (/home/tales/workspaces/backend/microservices/baseproject/baseproject/twitter-to-kafka-service/target/classes started by tales in /home/tales/workspaces/backend/microservices/baseproject/baseproject/twitter-to-kafka-service)
+2022-05-25 00:39:30 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-25 00:39:31 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.599 seconds (JVM running for 1.213)
+2022-05-25 00:39:31 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - App is starting..
+2022-05-25 00:39:31 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, ElasticSearch]
+2022-05-25 00:39:31 [main] INFO  c.t.m.t.TwitterToKafkaServiceApplication - Hello Microservices
