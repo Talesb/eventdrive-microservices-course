@@ -10,6 +10,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.talesb.microservices.twittertokafka.conf.TwitterToKafkaServiceConfigData;
+import com.talesb.microservices.twittertokafka.runner.StreamRunner;
 
 @SpringBootApplication
 public class TwitterToKafkaServiceApplication implements CommandLineRunner {
@@ -18,6 +19,9 @@ public class TwitterToKafkaServiceApplication implements CommandLineRunner {
 
 	@Autowired
 	private TwitterToKafkaServiceConfigData twitterToKafkaServiceConfigData;
+	
+	@Autowired
+	private StreamRunner streamRunner;
 
 	public static void main(String[] args) {
 		SpringApplication.run(TwitterToKafkaServiceApplication.class, args);
@@ -28,6 +32,7 @@ public class TwitterToKafkaServiceApplication implements CommandLineRunner {
 		LOG.info("App is starting..");
 		LOG.info(Arrays.toString(twitterToKafkaServiceConfigData.getTwitterKeywords().toArray(new String[] {})));
 		LOG.info(twitterToKafkaServiceConfigData.getWelcomeMessage());
+		streamRunner.start();
 	}
 
 }
