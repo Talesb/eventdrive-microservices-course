@@ -8,11 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
-import com.talesb.microservices.twittertokafka.conf.TwitterToKafkaServiceConfigData;
+import com.talesb.microservices.conf.TwitterToKafkaServiceConfigData;
 import com.talesb.microservices.twittertokafka.runner.StreamRunner;
 
 @SpringBootApplication
+@ComponentScan("com.talesb.microservices")
 public class TwitterToKafkaServiceApplication implements CommandLineRunner {
 
 	private static final Logger LOG = LoggerFactory.getLogger(TwitterToKafkaServiceApplication.class);

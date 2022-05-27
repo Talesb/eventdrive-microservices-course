@@ -1,4 +1,4 @@
-package com.talesb.microservices.twittertokafka.conf;
+package com.talesb.microservices.conf;
 
 import java.util.List;
 

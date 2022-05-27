@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 
-import com.talesb.microservices.twittertokafka.conf.TwitterToKafkaServiceConfigData;
+import com.talesb.microservices.conf.TwitterToKafkaServiceConfigData;
 import com.talesb.microservices.twittertokafka.listener.TwitterKafkaStatusListener;
 import com.talesb.microservices.twittertokafka.runner.StreamRunner;
 

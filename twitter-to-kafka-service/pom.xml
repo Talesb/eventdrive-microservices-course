@@ -27,6 +27,13 @@
 			<artifactId>lombok</artifactId>
 			<scope>provided</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.talesb.microservices</groupId>
+			<artifactId>app-config-data</artifactId>
+		</dependency>
+
+
 	</dependencies>
 	<build>
 		<plugins>

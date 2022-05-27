@@ -38,6 +38,13 @@
 				<version>${spring-boot.version}</version>
 				<scope>test</scope>
 			</dependency>
+			<!-- local -->
+			<dependency>
+				<groupId>com.talesb.microservices</groupId>
+				<artifactId>app-config-data</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
 			<!-- https://mvnrepository.com/artifact/org.twitter4j/twitter4j-stream -->
 			<dependency>
 				<groupId>org.twitter4j</groupId>
@@ -77,5 +84,6 @@
 	</build>
 	<modules>
 		<module>twitter-to-kafka-service</module>
+		<module>app-config-data</module>
 	</modules>
 </project>
